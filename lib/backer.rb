@@ -10,6 +10,7 @@ end
 def back_project(project)
   project = Project.new(name)
   @backed_projects << project
+  binding.pry
 end
 
 end
